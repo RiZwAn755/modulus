@@ -2,7 +2,10 @@
 
 :root {
   --font-family: 'Outfit', sans-serif;
-  --primary-color: #2563eb;
+  --primary-color: #000080;
+  /* Navy Blue */
+  --accent-color: #FFD700;
+  /* Golden Yellow */
   --text-dark: #1a1a1a;
   --text-light: #f3f4f6;
   --bg-dark: #0f172a;
@@ -93,52 +96,25 @@ img {
 /* Custom Scroll Animation */
 #scroll-container {
   overflow: hidden;
-  /* border: 3px solid black; omitted for navbar integration */
+  position: relative;
+  width: 100%;
 }
 
 #scroll-text {
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
+  /* Ensure it starts off-screen */
   transform: translateX(100%);
+  will-change: transform;
 
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+  /* Force animation */
+  animation: scroll-text-animation 15s linear infinite !important;
 }
 
-/* for Firefox */
-@-moz-keyframes my-animation {
+@keyframes scroll-text-animation {
   from {
-    -moz-transform: translateX(100%);
-  }
-
-  to {
-    -moz-transform: translateX(-100%);
-  }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
     transform: translateX(100%);
   }
 
   to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }

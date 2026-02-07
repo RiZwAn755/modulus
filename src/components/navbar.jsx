@@ -127,11 +127,11 @@ const Navbar = () => {
             <div className={`max-w-7xl mx-auto px-6 w-full flex justify-between items-center transition-all duration-300 ${scrolled ? 'py-2' : 'py-4'}`}>
                 <div className="flex items-center gap-6">
                     {/* Logo */}
-                    <a href="#home" className="flex items-center gap-2 bg-white/95 px-3 py-1.5 rounded-lg shadow-sm hover:scale-105 transition-transform duration-300">
+                    <a href="#home" className="flex items-center gap-2 hover:scale-105 transition-transform duration-300">
                         <img
-                            src="https://www.modulushyd.com/images/logo.png"
+                            src="/newlogo.jpeg"
                             alt="Modulus Logo"
-                            className="h-10 w-auto object-contain"
+                            className="h-24 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                         />
                     </a>
 
