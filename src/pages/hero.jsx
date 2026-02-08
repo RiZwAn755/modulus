@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-    "hero2.png",
-    "https://www.modulushyd.com/images/banner/1.webp",
     "hero3.png",
+    "https://www.modulushyd.com/images/banner/1.webp",
+    "hero2.png",
     "https://www.modulushyd.com/images/banner/4.webp"
 ];
 
-const Hero = () => {
+const Hero = () => { 
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
