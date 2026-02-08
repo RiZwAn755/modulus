@@ -131,7 +131,7 @@ const Navbar = () => {
                         <img
                             src="/newlogo.jpeg"
                             alt="Modulus Logo"
-                            className="h-24 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+                            className="h-16 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                         />
                     </a>
 
