@@ -12,8 +12,8 @@ const NewsAndDirector = () => {
                              {/* News Card 1 */}
                              <div className="bg-white rounded-lg shadow-md overflow-hidden flex-1 hover:shadow-xl transition-all duration-300 group">
                                 <div className="h-48 overflow-hidden relative">
-                                     <img 
-                                        src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                                    <img 
+                                        src="admission.png" 
                                         alt="News 1" 
                                         className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                                     />
@@ -38,8 +38,8 @@ const NewsAndDirector = () => {
                              {/* News Card 2 */}
                              <div className="bg-white rounded-lg shadow-md overflow-hidden flex-1 hover:shadow-xl transition-all duration-300 group">
                                 <div className="h-48 overflow-hidden relative">
-                                     <img 
-                                        src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                                    <img 
+                                        src="iit_foundation.png" 
                                         alt="News 2" 
                                         className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                                     />
@@ -72,7 +72,7 @@ const NewsAndDirector = () => {
                             <div className="flex-shrink-0 mx-auto md:mx-0">
                                 <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
                                      <img 
-                                        src="https://randomuser.me/api/portraits/men/75.jpg" 
+                                        src="https://www.modulushyd.com/images/director-img.png" 
                                         alt="Director" 
                                         className="w-full h-full object-cover"
                                      />
