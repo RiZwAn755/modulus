@@ -131,7 +131,11 @@ const Navbar = () => {
                         <img
                             src="/newlogo.jpeg"
                             alt="Modulus Logo"
-                            className="h-16 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+                            className={`h-16 w-auto object-contain rounded-2xl transition-all duration-300 ${
+                                scrolled 
+                                    ? 'shadow-md opacity-95 hover:opacity-100' 
+                                    : 'drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]'
+                            }`}
                         />
                     </a>
 
