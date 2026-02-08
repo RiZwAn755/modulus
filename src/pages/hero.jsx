@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-    "https://www.modulushyd.com/images/banner/2.webp",
+    "hero2.png",
     "https://www.modulushyd.com/images/banner/1.webp",
-    "https://www.modulushyd.com/images/banner/3.webp",
+    "hero3.png",
     "https://www.modulushyd.com/images/banner/4.webp"
 ];
 
